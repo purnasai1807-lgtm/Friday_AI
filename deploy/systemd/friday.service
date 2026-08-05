@@ -1,0 +1,15 @@
+[Unit]
+Description=Friday API Server
+After=network.target
+
+[Service]
+Type=simple
+User=friday
+WorkingDirectory=/opt/friday
+ExecStart=/opt/friday/.venv/bin/friday serve --host 0.0.0.0 --port 8000
+Restart=on-failure
+RestartSec=5
+Environment=HOME=/opt/friday
+
+[Install]
+WantedBy=multi-user.target

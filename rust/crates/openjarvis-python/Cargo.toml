@@ -1,0 +1,32 @@
+[package]
+name = "friday-python"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "friday_rust"
+crate-type = ["cdylib"]
+
+[dependencies]
+friday-core = { path = "../friday-core" }
+friday-engine = { path = "../friday-engine" }
+friday-security = { path = "../friday-security" }
+friday-tools = { path = "../friday-tools" }
+friday-agents = { path = "../friday-agents" }
+friday-traces = { path = "../friday-traces" }
+friday-telemetry = { path = "../friday-telemetry" }
+friday-learning = { path = "../friday-learning" }
+friday-mcp = { path = "../friday-mcp" }
+friday-sessions = { path = "../friday-sessions" }
+friday-workflow = { path = "../friday-workflow" }
+friday-skills = { path = "../friday-skills" }
+friday-recipes = { path = "../friday-recipes" }
+friday-templates = { path = "../friday-templates" }
+friday-a2a = { path = "../friday-a2a" }
+friday-scheduler = { path = "../friday-scheduler" }
+pyo3 = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+tokio = { workspace = true }
+once_cell = { workspace = true }
+parking_lot = { workspace = true }

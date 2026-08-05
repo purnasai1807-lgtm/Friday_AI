@@ -1,0 +1,13 @@
+pyautogui
+requests
+beautifulsoup4
+googlesearch-python
+wmi
+psutil
+pyaudio
+numpy
+pywhatkit
+scipy
+comtypes
+pycaw
+fuzzywuzzy

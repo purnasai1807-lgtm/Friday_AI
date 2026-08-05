@@ -1,0 +1,1 @@
+This file contains sanitized sample history for the bundled assistant example.
